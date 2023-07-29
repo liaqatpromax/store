@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <style>
+        body{
+            margin: 0px;
+            background-image: url(/2.png);
+            backdrop-filter: blur(2px);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        header{
+            padding: 5px;
+            padding-left: 17px;
+            color: white;
+            text-transform: capitalize;
+            background-color: purple;
+        }
+        .cont{
+            width: 1000px;
+            /* border: 2px solid green; */
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: auto;
+        }
+        
+        
+        .elec{
+            border-bottom: 1px solid rgb(219, 219, 219);
+            padding: 60px;
+            border-collapse:collapse;
+            /* margin-top:9px ; */
+        }
+        .elec:last-child{
+            border-bottom: 0px solid;
+        }
+        img{
+            /* border: 5px solid purple; */
+            /* border:inset 4px; */
+            margin: 10px;
+            width: 150px;
+        }
+        a{
+            text-decoration: none;
+            color: purple;
+        }
+        button{
+            float: right;
+            /* margin-bottom: 30px; */
+            position: relative;
+            bottom: 30px;
+            right: 10px;
+            padding: 5px;
+            background-color: plum;
+            border-radius: 3px;
+            border: 1px solid  rgb(38, 12, 63);
+        }
+        #sp{
+            border-bottom: 0px solid;
+        }
+        button a{
+            color: white;
+
+        }
+        button:hover{
+            background-color: rgb(83, 22, 139);
+        }
+        input[type=text]{
+            position: absolute;
+            left: 1100px;
+            top:40px;
+            border-radius: 5px;
+            padding: 3px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <input type="text" name="search" id="search" placeholder="Search Here">
+        <h2>liaqat E-Store</h2>
+        <!-- <img src="header.jpg" alt="" width="110px"> -->
+    </header>
+    <div class="cont">
+  
+   
+    <div class="elec">
+        <h3>
+           <a href="electronics.html">Electronics  </a>         </h3>
+
+
+        <img src="iphone.jpg" alt="" width="125px"height="100px">
+
+
+        <img src="s23 ultra.jpg" alt="" width="125px" height="100px">
+
+        <img src="pixel.jpg" alt="" width="125px"height="100px">
+        <img src="elec.jpg" alt=""width="125px"height="100px">
+        <img src="elec2.jpg" alt=""width="190px"height="100px">
+</div>
+        <div class="elec">
+            <h3><a href="groceris.html">Groceries</a></h3>
+            <p>
+                <img src="gr1.jpg" alt="">
+                <img src="gr2.jpg" alt="">
+                <img src="gr3.jpg" alt="">
+                <img src="gr4.jpg" alt="">
+            </p>
+        </div>
+        <div class="elec" id="sp">
+            <h3><a href="">Sportswear</a></h3>
+            <p>
+                <img src="s1.jpg" alt="">
+                <img src="s2.jpg" alt="">
+                <img src="s3.jpg" alt="">
+            </p>
+        </div>
+        <div>
+            <p>
+
+                <button>  <a href="index.html">back to home</a> </button>
+            </p>
+            
+       </div>
+    </div>
+</body>
+
+</html>
